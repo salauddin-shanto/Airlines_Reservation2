@@ -1,0 +1,156 @@
+#page_margin{
+    margin-left:100px;
+    margin-right:100px;
+}
+
+
+#header{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #5d222d;
+    color: black;   
+    box-shadow: 0 5px 15px grey;
+    position: fixed;
+    top: 0;
+
+}
+
+#header_next{
+    width:100%;
+    height:60px;
+    color: white;
+    background-color: #5d222d;
+    padding:15px;
+    text-align:center;
+    margin-top: 105px;
+    
+    
+}
+
+
+.logo{
+    height:80px;
+    width:100px;
+}
+
+.navigate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigate li{
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+.navigate li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+.navigate li a:hover,
+.navigate li a.active{
+    color: yellow;
+}
+
+
+#background_form_section{
+    margin-top: 50px;
+    display:flex;        
+    height:500px;
+    
+}
+
+.form_div{
+    flex:40%;
+}
+.pic{
+    flex:60%;
+    background-image:url(../image/airplane1.jpg);
+    background-repeat:no-repeat;
+}
+
+
+input[type=text]{
+    width: 250px;
+    height: 35px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#destination{
+    width:267px;
+}
+
+input[type=submit]{
+    background-color:yellow;
+    width : 325px;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+input[type=date]{
+    width: 202px;
+    height: 35px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+select{
+    width: 205px;
+    height: 35px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#why_section{
+    text-align: center;
+    justify-content: space-between;
+    padding: 5px;
+    box-shadow: 0 5px 15px grey;
+}
+
+.why_class{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.why_class li{
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+#howto_section{
+    margin-top: 100px;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.howto_class{
+    
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#footer_section{
+    background: rgba(11, 26, 18, 0.996);
+    margin-top: 70px;
+    justify-content: space-between;
+    padding: 5px;
+    color: rgb(200, 200, 200);
+}
+
+
+.footer_a{
+    color: white;
+}

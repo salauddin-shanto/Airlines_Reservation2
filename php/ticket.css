@@ -1,0 +1,63 @@
+#ticket_margin{
+    width: 1000px;
+    height: 363px;
+    margin-left:200px;
+    margin-right:200px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    border-style: solid;
+    border-color: red;
+
+}
+
+#header_section{
+    display: flex;
+    background-color: rgb(63, 63, 199);
+    align-items: center;
+    padding: 3px;
+}
+.gap{
+    margin-left: 10px;
+    margin-right: 290px;
+}
+
+.logo{
+    height:60px;
+    width: 75px;
+}
+
+#ticket{
+    display: flex;
+    width: 1000px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.columns{
+    margin-right: 150px;
+}
+
+#footer_section{
+    width: 1000px;
+    height: 30px;
+    background-color: rgb(63, 63, 199);
+    text-align: center;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.submit_button{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+input[type=submit]{
+    background-color:yellow;
+    width : 325px;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 5px;
+}

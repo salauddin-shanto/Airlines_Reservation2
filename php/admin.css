@@ -1,0 +1,98 @@
+#page_margin{
+    margin-left:100px;
+    margin-right:100px;
+}
+
+
+#header{
+    width:83.5%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: gray;
+    color: black;   
+    position: fixed;
+    top: 0;
+
+}
+h1{
+    align-items: center;
+    margin-left: 500px;
+}
+
+#header_next{
+    width:97.5%;
+    height:60px;
+    padding:15px;
+    text-align:center;
+    margin-top: 78px;
+    background-color: #5d222d;
+    color: black; 
+    
+    
+}
+
+
+.navigate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigate li{
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+.navigate li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+.navigate li a:hover,
+.navigate li a.active{
+    color: yellow;
+}
+
+
+.dash{
+    margin-top: 20px;
+    margin-left: 450px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    align-items: left;
+}
+
+#rows{
+    display: flex;
+    background-color: aliceblue;
+}
+
+.columns{
+    margin-right: 100px;
+}
+
+.photo{
+    height: 150px;
+    width: 200px;
+}
+
+button {
+    width: 100%;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+button:hover {
+    opacity: 0.8;
+}
+
+#howto_section{
+    margin-top: 50px;
+
+}

@@ -1,0 +1,99 @@
+#page_margin{
+    margin-left:100px;
+    margin-right:100px;
+}
+
+
+#header{
+    width:97.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: gray;
+    color: black;   
+
+
+
+}
+
+
+h1{
+    color: white;
+    font-size: 30px;
+}
+
+.logo{
+    height:80px;
+    width:100px;
+}
+
+.navigate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.navigate li{
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+.navigate li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px; 
+
+}
+
+.navigate li a:hover,
+.navigate li a.active{
+    color: yellow;
+}
+
+
+#background_form_section{
+    margin-top: 30px;
+    margin-left: 200;        
+    height: 500px;
+}
+
+
+#user_input_margin{
+    margin-left: 200px;
+
+}
+
+.user_input{
+    display: flex;
+    column-gap: 100px;
+
+    
+}
+
+
+input[type=text]{
+    width: 250px;
+    height: 35px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+
+
+
+
+input[type=submit]{
+    margin-top: 40px;
+    margin-left: 20px;
+
+    background-color:yellow;
+    width : 260px;
+    height: 40px;
+    border-radius: 5px; 
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+    background-color: green;
+  }

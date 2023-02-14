@@ -1,0 +1,170 @@
+#page_margin{
+    margin-left:100px;
+    margin-right:100px;
+}
+
+
+#header{
+    width:83.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #5d222d;
+    color: black;   
+    box-shadow: 0 5px 15px grey;
+    position: fixed;
+    top: 0;
+
+}
+
+#header_next{
+    width:97.5%;
+    height:60px;
+    color: white;
+    background-color: #0e8d30;
+    padding:15px;
+    text-align:center;
+    margin-top: 105px;
+    
+    
+}
+
+
+.logo{
+    height:80px;
+    width:100px;
+}
+
+.navigate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigate li{
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+.navigate li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.navigate li a:hover,
+.navigate li a.active{
+    color: yellow;
+}
+
+
+#background_form_section{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 200;        
+    height:500px;
+    
+}
+#user_input_box_shadow{
+    height: 500px;
+    box-shadow: 0 5px 15px grey;    
+}
+
+#user_input_margin{
+    margin-left: 200px;
+}
+
+.user_input{
+    display: flex;
+    column-gap: 100px;
+    
+}
+
+
+input[type=text]{
+    width: 250px;
+    height: 35px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#nid{
+    width: 260px ;
+}
+input[type=password]{
+    width: 225px;
+    height: 35px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+form i {
+    margin-left: -50px;
+    cursor: pointer;
+}
+
+
+
+input[type=date]{
+    width: 202px;
+    height: 35px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 255px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    
+    border-radius: 5px;
+}
+
+input[type=submit]{
+    margin-top: 40px;
+    margin-left: 220px;
+    background-color:yellow;
+    width : 325px;
+    height: 35px;
+    border-radius: 5px;
+}
+#email{
+    width: 275px;
+}
+#confirm_password{
+    width: 195px;
+}
+#dob{
+    width: 233px;
+}
+
+
+
+
+
+
+#footer_section{
+    background: rgba(11, 26, 18, 0.996);
+    margin-top: 70px;
+    justify-content: space-between;
+    padding: 5px;
+    color: rgb(200, 200, 200);
+}
+
+.footer_class{
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer_class li{
+    list-style-type: none;
+}
+
+.footer_class li a{
+    color: rgb(200, 200, 200);
+}
