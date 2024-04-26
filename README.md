@@ -1,11 +1,31 @@
-#Airlines ticket reservation
-#PHP and MySQL.
+## Airlines ticket reservation web app overview:
+## Language : PHP , Database : MySQL
 
-#User manual for Airlines ticket booking web Project
+## Screenshots are added to give a basic overview of the application:
+
+![1](https://github.com/salauddin-shanto/Airlines_Reservation2/assets/114419621/0ef02e25-a8bd-4008-a694-7f9f932eb8ea)
+
+
+
+![2](https://github.com/salauddin-shanto/Airlines_Reservation2/assets/114419621/0c26f882-0ee1-444a-9fed-27d6a1caaaab)
+
+
+
+![3](https://github.com/salauddin-shanto/Airlines_Reservation2/assets/114419621/6293adff-21f1-48e5-9241-ed32d013534b)
+
+
+
+![4](https://github.com/salauddin-shanto/Airlines_Reservation2/assets/114419621/69a0ec01-e0cd-4f2f-b4fc-c67c6aace025)
+
+
+![5](https://github.com/salauddin-shanto/Airlines_Reservation2/assets/114419621/8fa84a8f-f2b5-4ee8-9a93-11aeec699582)
+
+
+## User manual for Airlines ticket booking web Project
 
 #(Prerequisites:Xampp must be installed on your pc)
 
-#Steps to run this project :
+## Steps to run this project :
 
 1.First Download this project
 
